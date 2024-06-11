@@ -10,12 +10,6 @@ body {
     font-size: 16px;
 }
 
-/* Define basic layout */
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
 /* Define header styles */
 header {
     background-color: #333;
@@ -24,26 +18,30 @@ header {
 }
 
 /* Define navigation menu styles */
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
 nav ul {
     list-style: none;
-    display: flex;
 }
 
-nav li {
+nav ul li {
+    display: inline;
     margin-right: 10px;
 }
 
-/* Define link styles */
-a {
-    color: #333;
-    text-decoration: none;
+/* Define container styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
-a:hover {
-    text-decoration: underline;
+/* Define section styles */
+section {
+    margin-bottom: 20px;
+}
+
+/* Define footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
