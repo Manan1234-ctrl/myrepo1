@@ -1,0 +1,49 @@
+/* Reset default browser styles */
+body, h1, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Define basic layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Define header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Define navigation menu styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+/* Define link styles */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
